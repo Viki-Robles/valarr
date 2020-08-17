@@ -1,0 +1,13 @@
+
+.sectionOne {
+    margin-top: 10%;
+}
+.sectionOne-Items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+}
+
+.sectionOne-itemB {
+    justify-self: end;
+}
