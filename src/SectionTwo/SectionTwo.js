@@ -1,6 +1,6 @@
 import React from 'react';
 import './SectionTwo.css';
-import design from '../SectionOne/images/design.png';
+import design from '../SectionOne/images/design1.png';
 
 export default function SectionTwo() {
     return (
