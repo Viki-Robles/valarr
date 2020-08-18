@@ -1,0 +1,24 @@
+.sectionTwo-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%;
+}
+.sectionTwo-itemB {
+    color: rgb(135, 135, 135);
+}
+.sectionTwo-titleOne {
+    color: #A16AE8;
+}
+
+.sectionTwo-titleTwo {
+    font-size: 4rem;
+}
+
+img {
+    width: 100%;
+    margin-top: -10%;
+}
+
+.sectionTwo-itemA {
+    width: 70%;
+}

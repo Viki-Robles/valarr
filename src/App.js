@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import NavBar from './NavBar/NavBar';
-import sectionOne from './SectionOne/SectionOne';
 import SectionOne from './SectionOne/SectionOne';
+import SectionTwo from './SectionTwo/SectionTwo';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <NavBar/>
       <br/>
       <SectionOne/>
+      <SectionTwo/>
     </div>
   );
 }

@@ -37,17 +37,21 @@ h2.sectionOne-itemB-header{
         margin-top: 5%;
     }
     .sectionOne-itemB {
-        font-size: 40px;
+        font-size: 3rem;
     }
     .sectionOne-itemA {
         font-size: 70px;
         justify-self: start;
-        margin-left: 15%;
         margin-top: -10%;
+        margin-left: -20%;
     }
     .sectionOne-Items {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .sectionOne-button {
+        padding: 23px 40px;
     }
     
 }
