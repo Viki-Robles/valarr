@@ -1,5 +1,5 @@
 .myNav {
-    height: 15vh;
+    height: 8vh;
     width: 100vw;
     background: white;
     display: flex;
@@ -15,15 +15,12 @@
     outline: none;
     z-index: 2;
     margin-right: 25px;
-  }
-
-  .burger {
-    height: 40px;
+    width: 15%;
   }
 
   .navMenu {
     position: fixed;
-    height: 100vh;
+    height: 0vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -60,6 +57,7 @@
     }
     .myNav {
       display: none;
+      height: 10vh;
     }
     #menuDisplayoff {
       display: flex;

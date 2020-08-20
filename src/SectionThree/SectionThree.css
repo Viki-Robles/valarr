@@ -1,12 +1,13 @@
 .sectionThree-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     margin-top: 5%;
+    padding: 20px;
 }
 
 .sectionThree-titleTwo {
     color: rgb(135, 135, 135);
-    font-size: 4rem;
+    font-size: 1.5rem;
     letter-spacing: -0.075rem;
     margin-left: 2rem;
 }
@@ -18,7 +19,7 @@
 .sectionThree-details {
     color:#A16AE8;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     letter-spacing: -0.075rem;
 }
 
@@ -42,5 +43,16 @@ ul {
 
     .sectionThree-titleTwo {
         font-size: 4rem;
+    }
+
+    .sectionThree-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 5%;
+        padding: 20px;
+    }
+
+    .sectionThree-details {
+        font-size: 2rem;
     }
 }

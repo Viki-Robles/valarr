@@ -33,6 +33,9 @@ h2.sectionOne-itemB-header{
     
 }
 
+video {
+    height: 100%;
+}
 @media(min-width: 600px) {
     .sectionOne {
         margin-top: 10%;

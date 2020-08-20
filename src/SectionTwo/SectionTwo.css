@@ -1,25 +1,44 @@
+.sectionTwo-titleTwo {
+    font-size: 1.2rem;
+}
 .sectionTwo-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 5%;
-}
-.sectionTwo-itemB {
-    color: rgb(135, 135, 135);
-}
-.sectionTwo-titleOne {
-    color: #A16AE8;
-}
-
-.sectionTwo-titleTwo {
-    font-size: 4rem;
+    margin-top: 13%;
+    padding: 10px;
 }
 
 img {
     width: 100%;
+    border-radius: 6px;
+}
+
+.sectionTwo-itemB {
+    color: rgb(135, 135, 135);
+}
+
+.sectionTwo-details {
+    font-size: 0.8rem;
+}
+
+.sectionTwo-titleOne {
+    color: #A16AE8;
+}
+
+.sectionTwo-itemA {
+    padding-top: 40px;
+}
+@media(min-width: 600px) {
+
+
+.sectionTwo-titleTwo {
+    font-size: 4rem;
 }
 
 .sectionTwo-itemA {
     width: 90%;
     padding: 5px;
    
+}
+
 }
