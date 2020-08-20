@@ -43,8 +43,9 @@ h2.sectionOne-itemB-header{
         font-size: 70px;
         justify-self: start;
         margin-top: -10%;
-        margin-left: -20%;
+        margin-left: -10%;
     }
+
     .sectionOne-Items {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -52,6 +53,11 @@ h2.sectionOne-itemB-header{
 
     .sectionOne-button {
         padding: 23px 40px;
+    }
+
+    h2.logo {
+        font-size: 150px;
+        margin-top: -3%;
     }
     
 }

@@ -1,0 +1,46 @@
+.sectionThree-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%;
+}
+
+.sectionThree-titleTwo {
+    color: rgb(135, 135, 135);
+    font-size: 4rem;
+    letter-spacing: -0.075rem;
+    margin-left: 2rem;
+}
+
+.sectionThree-titleOne {
+    color:#A16AE8;
+}
+
+.sectionThree-details {
+    color:#A16AE8;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: -0.075rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.sectionThree-itemB img {
+    width: 100%;
+    margin:10px;
+}
+
+.sectionThree-itemB {
+    margin: 15px;
+}
+
+@media(min-width: 600px) {
+    .sectionThree-itemA {
+        margin-left: 20px;
+    }
+
+    .sectionThree-titleTwo {
+        font-size: 4rem;
+    }
+}
