@@ -14,8 +14,8 @@ export default function SectionOne() {
                 rigth:"50%",
                 transform:"translate(-50%, -50%)",
                 zIndex:"-1",
-                heigth:"100%",
-                marginTop:"15%"
+                heigth:"150%",
+                // marginTop:"15%"
             }}>
                 <source src={video} type="video/mp4"/>
             </video>
