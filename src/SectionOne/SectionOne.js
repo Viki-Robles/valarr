@@ -14,14 +14,15 @@ export default function SectionOne() {
                 rigth:"50%",
                 transform:"translate(-50%, -50%)",
                 zIndex:"-1",
-                heigth:"100%"
+                heigth:"100%",
+                marginTop:"15%"
             }}>
                 <source src={video} type="video/mp4"/>
             </video>
             <div className="sectionOne-Items">
                 <div className="sectionOne-itemA">
                     <h2 className="logo">VΑL</h2>
-                    <h2 className="logo">ΛRR</h2>
+                    <h2 className="logo two">ΛRR</h2>
                 </div>
                 <div className="sectionOne-itemB">
                     <h2 className="sectionOne-itemB-header">Building Digital</h2>

@@ -29,7 +29,7 @@ h2.logo {
 }
 
 h2.sectionOne-itemB-header{
-    color: rgb(135, 135, 135);
+    color: #b496db;
     
 }
 
@@ -58,7 +58,9 @@ h2.sectionOne-itemB-header{
 
     h2.logo {
         font-size: 150px;
-        margin-top: -3%;
+        /* margin-top: -3%; */
     }
-    
+    /* h2.logo.two {
+        margin-top: -20%;
+    } */
 }
