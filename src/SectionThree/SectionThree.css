@@ -9,7 +9,6 @@
     color: rgb(135, 135, 135);
     font-size: 1.5rem;
     letter-spacing: -0.075rem;
-    margin-left: 2rem;
 }
 
 .sectionThree-titleOne {
@@ -34,6 +33,14 @@ ul {
 
 .sectionThree-itemB {
     margin: 15px;
+}
+
+li {
+    cursor: pointer;
+}
+
+li:hover {
+    text-decoration: line-through rgb(135, 135, 135);
 }
 
 @media(min-width: 600px) {

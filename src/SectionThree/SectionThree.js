@@ -1,6 +1,6 @@
 import React from 'react';
 import './SectionThree.css';
-import mypicture from '../SectionThree/images/mypicture.png';
+import mobile from '../SectionThree/images/mobile.png';
 
 
 export default function SectionThree() {
@@ -16,7 +16,7 @@ export default function SectionThree() {
                 </ul>
             </div>
             <div className="sectionThree-itemB">
-                <img src={mypicture} alt=""/>
+                <img src={mobile} alt=""/>
             </div>
         </div>
     )
