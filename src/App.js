@@ -4,6 +4,7 @@ import NavBar from './NavBar/NavBar';
 import SectionOne from './SectionOne/SectionOne';
 import SectionTwo from './SectionTwo/SectionTwo';
 import SectionThree from './SectionThree/SectionThree';
+import GalleryOfCards from './Cards/GalleryOfCards';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <SectionOne />
       <SectionTwo />
       <SectionThree />
+      <GalleryOfCards/>
     </div>
   );
 }

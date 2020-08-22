@@ -80,10 +80,8 @@
   
     .navItem a {
       font-weight: bold;
-      padding: 10px;
       font-size: 1.5vw;
       color: #A16AE8;
-      border-radius: 10px;
       margin: 10px;
       scroll-behavior: smooth;
     }
@@ -93,7 +91,10 @@
     }
 
     .navItem {
-        padding-top: 28px;
-        padding-right: 20px;
+        padding: 20px;
       }
+
+    main {
+      border-bottom: 1px solid #e2dfdf;
+    }
   }

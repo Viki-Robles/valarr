@@ -5,7 +5,7 @@ import video from '../Video/images/videoplayback.mp4';
 export default function SectionOne() {
     return (
         <div className="sectionOne">
-            <video autoPlay loop muted
+            {/* <video autoPlay loop muted
             style={{
                 position:"absolute",
                 width:"100%",
@@ -18,7 +18,7 @@ export default function SectionOne() {
                 // marginTop:"15%"
             }}>
                 <source src={video} type="video/mp4"/>
-            </video>
+            </video> */}
             <div className="sectionOne-Items">
                 <div className="sectionOne-itemA">
                     <h2 className="logo">VΑL</h2>
