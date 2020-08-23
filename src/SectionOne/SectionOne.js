@@ -1,6 +1,7 @@
 import React from 'react';
 import './SectionOne.css';
 import video from '../Video/images/videoplayback.mp4';
+import rocket from '../SectionOne/images/rocket.png';
 
 export default function SectionOne() {
     return (
@@ -21,12 +22,13 @@ export default function SectionOne() {
             </video> */}
             <div className="sectionOne-Items">
                 <div className="sectionOne-itemA">
-                    <h2 className="logo">VΑL</h2>
-                    <h2 className="logo two">ΛRR</h2>
+                    {/* <img src={rocket} alt=""/> */}
+                    {/* <h2 className="logo">VΑL</h2>
+                    <h2 className="logo two">ΛRR</h2> */}
                 </div>
                 <div className="sectionOne-itemB">
-                    <h2 className="sectionOne-itemB-header">Building Digital</h2>
-                    <h2 className="sectionOne-itemB-header">Time Wraps.</h2>
+                    <h2 className="sectionOne-itemB-header"><span>Sky</span>Rocket your Business.</h2>
+                    <h2 className="sectionOne-itemB-header">Build your brand.</h2>
                     <button className="sectionOne-button">VIEW OUR WORK</button>
                 </div>
             </div>

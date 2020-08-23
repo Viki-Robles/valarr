@@ -15,6 +15,7 @@ function App() {
       <SectionOne />
       <SectionTwo />
       <SectionThree />
+      <h2 className="cards-title">Our Work</h2>
       <GalleryOfCards/>
       <Footer/>
     </div>

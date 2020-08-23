@@ -2,6 +2,7 @@ import React from 'react';
 import getCards from './CardContent';
 import MyCard from '../Cards/Card';
 import { Grid } from "@material-ui/core";
+import './Card.css';
 
 
 export default function GalleryOfCards() {

@@ -15,17 +15,21 @@
     justify-self: start;
 } */
 
+span {
+    color: #007aff;
+}
+
 .sectionOne-button {
     background-color: white;
-    border: solid 2px #A16AE8;
+    border: solid 2px #007aff;
     border-radius: 3rem;
     padding: 15px 28px;
-    color: #A16AE8;
+    color: #007aff;
     font-weight: 600;
 }
 
 h2.logo {
-    color:#A16AE8;
+    color:#007aff;
 }
 
 h2.sectionOne-itemB-header{

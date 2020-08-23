@@ -3,3 +3,9 @@
     overflow: hidden;
 }
 
+.cards-title {
+    color: rgb(135, 135, 135);
+    font-size: 2.5rem;
+    letter-spacing: -0.075rem;
+    margin-left: 42.5%;
+}

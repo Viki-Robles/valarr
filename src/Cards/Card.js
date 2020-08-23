@@ -22,10 +22,12 @@ const useStyles = makeStyles((theme) => ({
         padding: 20,
         marginLeft: 20,
         marginRight: 20
-    },
+        },
     media: {
         height: 0,
         paddingTop: '56.25%',
+        color:'#007aff'
+
     },
     expand: {
         transform: 'rotate(0deg)',
@@ -38,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
         transform: 'rotate(180deg)',
     },
     avatar: {
-        backgroundColor: red[500]
+        backgroundColor: '#007aff'
     },
 }));
 
@@ -70,7 +72,7 @@ const MyCard = props => {
                     onClick={handleExpandClick}
                     aria-expanded={expanded}
                     aria-label="show more">
-                    <ExpandMoreIcon style={{ color: '#000' }} />
+                    <ExpandMoreIcon style={{ color: '#007aff' }} />
                 </IconButton>
             </CardActions>
             <Collapse in={expanded} timeout="auto" unmountOnExit>
@@ -81,7 +83,7 @@ const MyCard = props => {
                 </CardContent>
             </Collapse>
         </Card>
-
+    
     )
 }
 
