@@ -5,6 +5,7 @@ import SectionOne from './SectionOne/SectionOne';
 import SectionTwo from './SectionTwo/SectionTwo';
 import SectionThree from './SectionThree/SectionThree';
 import GalleryOfCards from './Cards/GalleryOfCards';
+import Footer from './Footer/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <SectionTwo />
       <SectionThree />
       <GalleryOfCards/>
+      <Footer/>
     </div>
   );
 }

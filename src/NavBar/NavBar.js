@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './NavBar.css';
 import burger from './images/burger.png'
+import brandlogo from '../NavBar/images/brandlogo.png';
 
 export default function NavBar() {
     const [menuDisplay, setMenuDisplay] = useState("menuDisplayoff");
@@ -16,6 +17,7 @@ export default function NavBar() {
         </button>
       </nav>
       <main className="navMenu" id={menuDisplay}>
+      {/* <img src={brandlogo} alt="" className="brandlogo"/> */}
         <h4 className="navItem">
           <a href="#work" onClick={() => toggleMenu()}>
             Work
