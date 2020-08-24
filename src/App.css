@@ -9,3 +9,8 @@
     letter-spacing: -0.075rem;
     margin-left: 42.5%;
 }
+
+span.dot {
+    color: #007aff;
+    margin-left: 10px;
+}

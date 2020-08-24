@@ -1,12 +1,12 @@
 import React from 'react';
 import './SectionTwo.css';
-import design from '../SectionOne/images/design1.png';
+import woman from '../SectionOne/images/woman.png';
 
 export default function SectionTwo() {
     return (
         <div className="sectionTwo-container">
             <div className="sectionTwo-itemA">
-                <img src={design} alt=""/>
+                <img src={woman} alt=""/>
             </div>
             <div className="sectionTwo-itemB">
                 <h4 className="sectionTwo-titleOne">01. Who</h4>
