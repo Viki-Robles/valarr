@@ -6,6 +6,24 @@ import rocket from '../SectionOne/images/rocket.png';
 export default function SectionOne() {
     return (
         <div className="sectionOne">
+            <div className="spider">
+                <div className="spiderWeb"></div>
+                <div className="body">
+                    <div className="eye left"></div>
+                    <div className="eye right"></div>
+                    </div>
+                <div className="legs left">
+                    <div className="leg"></div>
+                    <div className="leg"></div>
+                    <div className="leg"></div>
+                </div>
+                <div className="legs right">
+                    <div className="leg"></div>
+                    <div className="leg"></div>
+                    <div className="leg"></div>
+                </div>
+               
+            </div>
             {/* <video autoPlay loop muted
             style={{
                 position:"absolute",

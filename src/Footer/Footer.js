@@ -27,6 +27,7 @@ export default function Footer() {
                 <div className="footer-item-github"><img src={github} alt=""/></div>
                 </div>
             </div>
+            <div className="copywrite">@Copywrite 2020. VALARR</div>
         </div>
     )
 }

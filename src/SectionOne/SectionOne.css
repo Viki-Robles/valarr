@@ -1,74 +1,202 @@
-
 .sectionOne {
-    margin-top: 40%;
-    display: flex;
+  margin-top: 40%;
+  display: flex;
 }
 .sectionOne-Items {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .sectionOne-itemA {
-    font-size: 30px;
+  font-size: 30px;
 }
 /* .sectionOne-itemB {
     justify-self: start;
 } */
 
 span {
-    color: #007aff;
+  color: #007aff;
 }
 
 .sectionOne-button {
-    background-color: white;
-    border: solid 2px #007aff;
-    border-radius: 3rem;
-    padding: 15px 28px;
-    color: #007aff;
-    font-weight: 600;
+  background-color: white;
+  border: solid 2px #007aff;
+  border-radius: 3rem;
+  padding: 15px 28px;
+  color: #007aff;
+  font-weight: 600;
+  box-shadow: 10px 10px 5px 0px rgba(212, 212, 212, 1);
+}
+
+.sectionOne-button:hover {
+  box-shadow: inset -7px -7px 20px 0 rgba(255, 255, 255, 0.7),
+    inset 7px 7px 20px 0 rgba(0, 0, 0, 0.2);
+  color: white;
+  background-color: #007aff;
+  border: solid 2px white;
 }
 
 h2.logo {
-    color:#007aff;
+  color: #007aff;
 }
 
-h2.sectionOne-itemB-header{
-    color: rgb(135, 135, 135);
-    
+h2.sectionOne-itemB-header {
+  color: rgb(135, 135, 135);
 }
 
-video {
+/* video {
     height: 150%;
+} */
+
+.spiderWeb {
+  background: black;
+  width: 2px;
+  height: 400px;
+  margin-left: 49px;
 }
-@media(min-width: 600px) {
-    .sectionOne {
-        margin-top: 10%;
-    }
-    .sectionOne-itemB {
-        font-size: 3rem;
-    }
-    .sectionOne-itemA {
-        font-size: 70px;
-        justify-self: start;
-        /* margin-top: -10%; */
+
+.spider .body {
+  width: 100px;
+  height: 80px;
+  background: black;
+  position: relative;
+  border-radius: 50%;
+}
+
+.spider .body .eye {
+  width: 33px;
+  height: 33px;
+  background: white;
+  position: absolute;
+  bottom: 20px;
+  border-radius: 50%;
+}
+
+.spider .eye.right {
+  right: 15px;
+}
+.spider .eye.left {
+  left: 15px;
+}
+
+.spider .eye::after {
+  background: black;
+  width: 7px;
+  height: 7px;
+  content: "";
+  display: block;
+  margin: 55%;
+  border-radius: 50%;
+  animation: look 8s infinite;
+}
+.spider {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 8%;
+  animation: swing 2s infinite;
+  transform-origin: top;
+}
+
+.spider .legs {
+    position: absolute;
+    bottom: -10%;
+    z-index: -1;
+}
+
+.spider .legs .leg {
+  width: 80px;
+  height: 40px;
+  margin-top: -20px;
+  border: 5px solid transparent;
+  border-top-color: black;
+  border-radius: 40px 40px 00;
+}
+
+.spider .legs.left {
+    left: -50%;
+}
+
+.spider .legs.right {
+    right: -40%;
+}
+
+.legs.left .leg:nth-child(1) {
+    transform: rotate(10deg);
+    margin-left: 10px;
+}
+
+.legs.right .leg:nth-child(1) {
+    transform: rotate(-10deg);
+    margin-left: -10px;
+}
+
+.legs.left .leg:nth-child(2) {
+    transform: rotate(-20deg);
+    margin-left: 20px;
+}
+
+.legs.right .leg:nth-child(2) {
+    transform: rotate(20deg);
+    margin-left: -20px;
+}
+
+.legs.left .leg:nth-child(3) {
+    transform: rotate(-50deg);
+    margin-left: 30px;
+}
+
+.legs.right .leg:nth-child(3) {
+    transform: rotate(50deg);
+    margin-left: -30px;
+}
+
+@keyframes look {
+    0%, 40%, 100% {
+        transform: translateX(0);
     }
 
-    .sectionOne-Items {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+    45%, 95% {
+        transform: translateX(-110%);
     }
+}
 
-    .sectionOne-button {
-        padding: 23px 40px;
+@keyframes swing {
+    0%, 100% {
+        transform: translateY(0);
     }
+    50% {
+        transform: translateY(-140px);
+    }
+}
 
-    h2.logo {
-        font-size: 100px;
-        /* margin-top: -3%; */
-    }
-    /* h2.logo.two {
+@media (min-width: 600px) {
+  .sectionOne {
+    margin-top: 10%;
+  }
+  .sectionOne-itemB {
+    font-size: 3rem;
+  }
+  .sectionOne-itemA {
+    font-size: 70px;
+    justify-self: start;
+    /* margin-top: -10%; */
+  }
+
+  .sectionOne-Items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sectionOne-button {
+    padding: 23px 40px;
+  }
+
+  h2.logo {
+    font-size: 100px;
+    /* margin-top: -3%; */
+  }
+  /* h2.logo.two {
         margin-top: -20%;
     } */
-
-    
 }
