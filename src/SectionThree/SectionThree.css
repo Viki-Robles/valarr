@@ -1,65 +1,65 @@
 .sectionThree-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-top: 5%;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 20%;
+  padding: 20px;
+  background: #ffa59c;
+  border-radius: 700px 0 0 1880px;
+  border-bottom-left-radius: 1880px;
 }
 
 .sectionThree-titleTwo {
-    color: rgb(135, 135, 135);
-    font-size: 1.5rem;
-    letter-spacing: -0.075rem;
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: -0.075rem;
 }
 
 .sectionThree-titleOne {
-    color:#007aff;
+  color: #007aff;
 }
 
 .sectionThree-details {
-    color:#007aff;
-    font-weight: bold;
-    font-size: 1.2rem;
-    letter-spacing: -0.075rem;
+  color: #007aff;
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: -0.075rem;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .sectionThree-itemB img {
-    width: 100%;
-    margin:10px;
+  width: 100%;
 }
 
 .sectionThree-itemB {
-    margin: 15px;
+  margin: 15px;
 }
 
 li {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 li:hover {
-    text-decoration: line-through rgb(135, 135, 135);
+  text-decoration: line-through rgb(135, 135, 135);
 }
 
-@media(min-width: 600px) {
-    .sectionThree-itemA {
-        margin-left: 20px;
-    }
+@media (min-width: 600px) {
+  .sectionThree-itemA {
+    margin-left: 15%;
+  }
 
-    .sectionThree-titleTwo {
-        font-size: 3rem;
-    }
+  .sectionThree-titleTwo {
+    font-size: 3rem;
+  }
 
-    .sectionThree-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-top: 5%;
-        padding: 20px;
-    }
-
-    .sectionThree-details {
-        font-size: 2rem;
-    }
+  .sectionThree-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;
+  }
+  .sectionThree-details {
+    font-size: 2rem;
+  }
 }

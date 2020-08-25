@@ -53,7 +53,7 @@ const MyCard = props => {
         setExpanded(!expanded);
     };
     return (
-        <Card className={classes.root}>
+        <Card className={classes.root} id="work">
             <CardHeader title={title} 
             avatar={
                 <Avatar aria-label="recipe" className={classes.avatar}>

@@ -5,7 +5,7 @@ import github from '../Footer/images/github.png';
 
 export default function Footer() {
     return (
-        <div className="footer">
+        <div className="footer" id="contact">
             <div className="footer-itemA">
                 <ul>
                     <li className="footer-li">Home</li>

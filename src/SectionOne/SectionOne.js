@@ -2,6 +2,7 @@ import React from 'react';
 import './SectionOne.css';
 import video from '../Video/images/videoplayback.mp4';
 import rocket from '../SectionOne/images/rocket.png';
+import Card from '../Cards/Card';
 
 export default function SectionOne() {
     return (
