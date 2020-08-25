@@ -5,8 +5,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 13%;
-    padding: 10px;
+    padding: 20px;
     background: #F5F5F5;
+    border-radius: 0 1880px 0 0;
+    border-bottom-right-radius: 1880px;
 }
 
 img {
