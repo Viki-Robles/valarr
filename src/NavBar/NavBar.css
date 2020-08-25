@@ -19,8 +19,8 @@
   }
 
   .navMenu {
-    position: fixed;
-    height: 0vh;
+    position: absolute;
+    height: 50%;
     width: 100vw;
     display: flex;
     flex-direction: column;

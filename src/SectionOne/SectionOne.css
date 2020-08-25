@@ -18,6 +18,9 @@ span {
   color: #007aff;
 }
 
+.sectionOne-itemB {
+  padding: 15px;
+}
 .sectionOne-button {
   background-color: white;
   border: solid 2px #007aff;
@@ -42,6 +45,7 @@ h2.logo {
 
 h2.sectionOne-itemB-header {
   color: rgb(135, 135, 135);
+  font-size: 1.8rem;
 }
 
 /* video {
@@ -96,6 +100,7 @@ h2.sectionOne-itemB-header {
   left: 8%;
   animation: swing 2s infinite;
   transform-origin: top;
+  z-index: 4;
 }
 
 .spider .legs {
