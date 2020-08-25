@@ -9,7 +9,7 @@ export default function GalleryOfCards() {
     return (
         // <div style={{ padding: 20 }}>
             <Grid container spacing={3}>
-                <Grid container item xs={3} sm={12} justify="center">
+                <Grid container item xs={12} sm={12} justify="center">
                     {
                         getCards().map(({ id, title, picture }) => (
                             <MyCard

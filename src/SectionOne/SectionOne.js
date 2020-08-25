@@ -45,8 +45,7 @@ export default function SectionOne() {
                     <h2 className="logo two">ΛRR</h2> */}
                 </div>
                 <div className="sectionOne-itemB">
-                    <h2 className="sectionOne-itemB-header"><span>Sky</span>Rocket your Business.</h2>
-                    <h2 className="sectionOne-itemB-header">Build your brand.</h2>
+                    <h2 className="sectionOne-itemB-header">We Build Digital Time Wraps.</h2>
                     <button className="sectionOne-button">VIEW OUR WORK</button>
                 </div>
             </div>
