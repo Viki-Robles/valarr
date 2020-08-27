@@ -3,7 +3,7 @@
   grid-template-columns: 1fr;
   margin-top: 20%;
   padding: 20px;
-  background: #ffa59c;
+  /* background: #ffa59c; */
   border-radius: 700px 0 0 1880px;
   border-bottom-left-radius: 1880px;
 }

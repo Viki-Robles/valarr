@@ -18,17 +18,17 @@ export default function NavBar() {
       </nav>
       <main className="navMenu" id={menuDisplay}>
       {/* <img src={brandlogo} alt="" className="brandlogo"/> */}
-        <h4 className="navItem">
+        <h4 className="navItem one">
           <a href="#work" onClick={() => toggleMenu()}>
             Work
           </a>
         </h4>
-        <h4 className="navItem">
+        <h4 className="navItem two">
           <a href="#about" onClick={() => toggleMenu()}>
             About
           </a>
         </h4>
-        <h4 className="navItem">
+        <h4 className="navItem three">
           <a href="#contact" onClick={() => toggleMenu()}>
             Contact
           </a>
