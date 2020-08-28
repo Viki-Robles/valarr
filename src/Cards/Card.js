@@ -75,7 +75,7 @@ const MyCard = props => {
                     onClick={handleExpandClick}
                     aria-expanded={expanded}
                     aria-label="show more">
-                    <ExpandMoreIcon style={{ color: '#000' }} />
+                    <ExpandMoreIcon style={{ color: '#007aff;' }} />
                 </IconButton>
             </CardActions>
             <Collapse in={expanded} timeout="auto" unmountOnExit>

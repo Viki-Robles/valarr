@@ -1,10 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './SectionOne.css';
 import video from '../Video/images/videovk.mp4';
-import rocket from '../SectionOne/images/rocket.png';
-import Card from '../Cards/Card';
 
 export default function SectionOne() {
+    
     return (
         <div className="sectionOne">
             <video autoPlay loop muted
@@ -21,7 +20,9 @@ export default function SectionOne() {
                 </div>
                 <div className="sectionOne-itemB">
                     <h2 className="sectionOne-itemB-header">We Build Digital Time Wraps.</h2>
+                    <a href="#work">
                     <button className="sectionOne-button">VIEW OUR WORK</button>
+                    </a>
                 </div>
             </div>
         </div>

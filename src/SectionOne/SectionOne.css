@@ -1,8 +1,9 @@
 .sectionOne {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 80px;
 }
 .sectionOne-Items {
-  display: block;
   margin: 0 auto;
 }
 
@@ -24,7 +25,7 @@ span {
   background-color: white;
   border: solid 2px #007aff;
   border-radius: 3rem;
-  padding: 15px 28px;
+  padding: 10px 23px;
   color: #007aff;
   font-weight: 600;
   box-shadow: 10px 10px 5px 0px rgba(212, 212, 212, 1);
@@ -47,9 +48,9 @@ h2.sectionOne-itemB-header {
   font-size: 1.8rem;
 }
 
-/* video {
-    height: 150%;
-} */
+video {
+    height: 100%;
+}
 
 
 @media (min-width: 600px) {
