@@ -22,11 +22,11 @@ const useStyles = makeStyles((theme) => ({
         padding: 20,
         marginLeft: 20,
         marginRight: 20
-        },
+    },
     media: {
         height: 0,
         paddingTop: '56.25%',
-        color:'#007aff'
+        color: '#007aff'
 
     },
     expand: {
@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const MyCard = props => {
-    const { title, details, picture, moredescription } = props;
+    const { title, details, picture, moredescription, id } = props;
     const classes = useStyles();
     const [expanded, setExpanded] = React.useState(false);
 
@@ -54,15 +54,18 @@ const MyCard = props => {
     };
     return (
         <Card className={classes.root} id="work">
-            <CardHeader title={title} 
-            avatar={
-                <Avatar aria-label="recipe" className={classes.avatar}>
-                  R
-                </Avatar>
-              }/>
-            <CardMedia image={picture} />
-            <CardContent>Project:
-            <Typography variant="caption" component="p" style={{ color: '#A16AE8' }}>{details}</Typography>
+            <CardHeader title={title}
+                avatar={
+                    <Avatar aria-label="recipe" className={classes.avatar}>
+                        {id}
+                    </Avatar>
+                } />
+            <CardMedia
+                className={classes.media}
+                style={{ height: "180px" }}
+                image={picture} />
+            <CardContent>
+                <Typography variant="caption" component="p" style={{ color: '#000' }}>{details}</Typography>
             </CardContent>
             <CardActions disableSpacing>
                 <IconButton
@@ -72,18 +75,18 @@ const MyCard = props => {
                     onClick={handleExpandClick}
                     aria-expanded={expanded}
                     aria-label="show more">
-                    <ExpandMoreIcon style={{ color: '#007aff' }} />
+                    <ExpandMoreIcon style={{ color: '#000' }} />
                 </IconButton>
             </CardActions>
             <Collapse in={expanded} timeout="auto" unmountOnExit>
                 <CardContent>
-                    <Typography variant="caption" component="p" style={{ color: '#fff' }} >
+                    <Typography variant="caption" component="p" style={{ color: '#000' }} >
                         {moredescription}
                     </Typography>
                 </CardContent>
             </Collapse>
         </Card>
-    
+
     )
 }
 
